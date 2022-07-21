@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Womens</title>
-    <link rel="stylesheet" href="womens.css">
+    <title>Mens</title>
+    <link rel="stylesheet" href="mens.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <a href="">Home </a>
         /
 
-        <a href="">Women</a>
+        <a href="">Men</a>
     </div>
     <div id="page">
         <div id="sidebar">
@@ -152,26 +152,27 @@
 
             </div>
             <div id="cat">
-                <p>All New Arrivals</p>
+                <p id="all">All New Arrivals</p>
                 <p id="bag">Accessories</p>
                 <p id="dress">Clothing</p>
                 <p id="shoes">Shoes</p>
 
             </div>
             <div id="s_and_c">
-                <p>items</p>
-                <select name="" id="">
-                    <option value="">Sort by customer rating</option>
-                    <option value="">Sort by featured</option>
-                    <option value="">Sort by newest</option>
-                    <option value="">Sort by percentage off</option>
-                    <option value="">Sort by price:high to low</option>
-                    <option value="">Sort by price:low to high</option>
+                <p id="t_items"></p>
+                <select name="" id="sort">
+
+                    <option value="Ascending">Sort by featured</option>
+                    <option value="Descending">Sort by newest</option>
+
+                    <option value="High"> Sort by price(High to Low)</option>
+                    <option value="Low">Sort by price(Low to High)</option>
+
                 </select>
 
 
             </div>
-            <div id="products">
+            <div onload="displayPage()" id="products">
 
             </div>
 
@@ -184,4 +185,4 @@
 
 </html>
 
-<script src="womens.js"></script>
+<script src="mens.js"></script>
