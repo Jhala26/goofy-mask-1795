@@ -128,3 +128,55 @@ summary:after {
     height: 300px;
 }
 
+#products>div>img{
+    margin-bottom: 20px;
+}
+#products>div>img:hover{
+  cursor: pointer;
+}
+
+#products>div>p{
+    
+    font-size: 14px;
+   
+    color: rgb(78, 76, 76);
+   
+}
+#products>div>p:nth-child(4){
+    
+    font-size: 14px;
+ 
+    text-decoration: line-through;
+}
+
+#products>div>div{
+ 
+
+  display: flex;
+  margin-bottom: 20px;
+ 
+}
+#products>div>div>p:first-child{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(78, 76, 76);
+}
+/* #products>div>div>p:nth-child(1){
+
+  
+} */
+#products>div>div>p:nth-child(2){
+  
+  margin-left: 5px;
+  color:rgb(78, 76, 76);
+}
+#products>div>div>p{
+  color: rgb(78, 76, 76);
+ 
+  font-weight: lighter;
+ 
+ 
+ 
+}
+
+
