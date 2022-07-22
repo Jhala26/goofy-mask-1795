@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #container{
+        /* border: 1px solid red; */
+        height:auto;
+        width:25%;
+        margin: auto;
+        margin-top: 100px;
+      }
+      #p2{
+        font: 13px;
+        margin: 13px 0px 15px;
+        color:#393939;
+
+      }
+      #p1{
+        font-size: 25px;
+        font-family: sans-serif,Arial, Helvetica, sans-serif;
+        margin: 0px 0px 16px;
+        color:#393939;
+      }
+      #p3{
+        font-weight: 400;
+        font-family: sans-serif;
+      }
+      #email{
+        width:80%;
+        height:30px;
+        border-color: solid gray;
+      }
+      #p4{
+        width:90%
+      }
+      #next{
+        width:83%;
+        height:35px;
+        background-color: #00819D;
+        color:white;
+        border: none;
+      }
+      #next:hover{
+        color:#00819D;
+        background-color: white;
+        border:1px solid #00819D;
+        cursor: pointer;
+      }
+      #span1,#span2{
+        text-decoration: underline;
+        color:#00819D;
+      }
+      form> input{
+        margin: 4px;
+        height:20px;
+        width:80%;
+      }
+      form span{
+        color:red;
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+<p id="p1">Create Account</p>
+<p id="p3">Email</p>
+<p id="p2"></p>
+   
+<form   action="">
+    <p>First Name <span>*</span></p>
+    <input id="firstname" type="text">
+    <p>Lasr Name<span>*</span></p>
+    <input id="lastName" type="text">
+    <p>Password<span>*</span></p>
+    <input id="password" type="password" >
+
+<p id="p4">By creating an account, you agree to <span id="span1">Privacy Policy.</span>and <span id="span2">Terms & Conditions.</span></p>
+<input  id="next" type="submit" value="Create Account">
+</form> 
+
+</div>
+</body>
+</html>
+<script src="./signup.js"></script>
