@@ -1,97 +1,35 @@
 
 
-// dress data
-
-let derssData = async () => {
-
-    let data = await getData();
-
-    console.log(data);
-    append(data)
 
 
-}
+var array = ["All", "shoes", "slipper", "t-shirts","pants","hoodie"];
+var btndiv = document.createElement("div");
+btndiv.setAttribute("id", "btndiv");
+var itemscount=document.getElementById("t_items");
 
-document.getElementById("dress").addEventListener("click", derssData);
-let getData = async () => {
-    url = `https://dummyjson.com/products/category/mens-shirts`;
-    res = await fetch(url);
-    data = await res.json();
-
-    return data.products;
-}
-
-// shoes data
-
-
-let shoesData = async () => {
-
-    let data = await getData2();
-
-    console.log(data);
-    append(data)
-
-
-}
-
-document.getElementById("shoes").addEventListener("click", shoesData);
-let getData2 = async () => {
-    url = `https://dummyjson.com/products/category/mens-shoes`;
-    res = await fetch(url);
-    data = await res.json();
-
-    return data.products;
-}
-
-
-// bags data
-
-let bagsData = async () => {
-
-    let data = await getData3();
-
-    console.log(data);
-    append(data)
-
-
-}
-
-document.getElementById("bag").addEventListener("click", bagsData);
-let getData3 = async () => {
-    url = `https://dummyjson.com/products/category/sunglasses`;
-    res = await fetch(url);
-    data = await res.json();
-
-    return data.products;
-}
-
-
-
-
-let append = (data) => {
-    let container = document.getElementById("products");
-    container.innerHTML = null;
-    data.forEach((elem) => {
-        let image = document.createElement("img");
-        image.src = elem.thumbnail;
-
-
-        let brand = document.createElement("p");
-        brand.innerText = elem.brand;
-
-        let title = document.createElement("h3");
-        title.innerText = elem.title;
-
-        let price = document.createElement("p");
-        price.innerText = "$" + elem.price
-
-       
-
-        let div = document.createElement("div");
+for (var i = 0; i < array.length; i++) {
+    var a = document.createElement("button");
+    a.setAttribute("id", "sortbtn");
+    a.innerText = array[i];
+    a.addEventListener("click", function (event) {
       
-        div.append(image, brand, title, price);
-        container.append(div);
+        if (event.target.innerText == "All") {
+            displayPage(mensData);
+            itemscount.innerText = mensData.length + " " + "Items";
+          
+        } else {
+            var filtered = mensData.filter(function (ele) {
+                return ele.cat == event.target.innerText;
+            });
+
+            displayPage(filtered);
+            var filter = document.querySelector("#mySelect");
+          
+            itemscount.innerText = filtered.length + " " + "Items";
+         }
     })
+    btndiv.append(a)
+    document.getElementById("cat").append(btndiv)
 }
 
 
@@ -511,17 +449,14 @@ var mensData = [
 
     localStorage.setItem("mensDataLs",JSON.stringify(mensData));
 
-    document.getElementById("all").addEventListener("click",function(){
-        displayPage(mensData)
-    })
-
+ 
 
     let container = document.getElementById("products");  
 
 let displayPage=(mensData)=>{
     
         container.innerHTML = null;
-  mensData.forEach(function(elem){
+  mensData.forEach(function(elem,index){
     let box=document.createElement("div");
     box.addEventListener("click",function(){
       proPage(elem);
@@ -545,11 +480,7 @@ let displayPage=(mensData)=>{
     let shiping=document.createElement("p");
     shiping.innerText="Free Shipping on Orders $89+"
 
-    let btn=document.createElement("button");
-    btn.innerText="Add To Cart";
-    btn.addEventListener("click",function(){
-        addToCart(elem);
-    });
+    
 
     let price_div=document.createElement("div");
     price_div.append(price,percentage)
@@ -562,9 +493,44 @@ let displayPage=(mensData)=>{
       window.location.href="propage.html"
     }
 
-    
+    if(index%2==0){
+      var star = document.createElement("div");
+      star.setAttribute("class", "rating");
 
-    box.append(proImg,name,price_div,strprice,shiping);
+      var stardivs1 = document.createElement("span");
+      stardivs1.setAttribute("class", "fa fa-star checked");
+      var stardivs2 = document.createElement("span");
+      stardivs2.setAttribute("class", "fa fa-star checked");
+      var stardivs3 = document.createElement("span");
+      stardivs3.setAttribute("class", "fa fa-star checked");
+      var stardivs4 = document.createElement("span");
+      stardivs4.setAttribute("class", "fa fa-star checked");
+      var stardivs5 = document.createElement("span");
+      stardivs5.setAttribute("class", "fa fa-star");
+
+    }
+    else{
+      var star = document.createElement("div");
+      star.setAttribute("class", "rating");
+
+      var stardivs1 = document.createElement("span");
+      stardivs1.setAttribute("class", "fa fa-star checked");
+      var stardivs2 = document.createElement("span");
+      stardivs2.setAttribute("class", "fa fa-star checked");
+      var stardivs3 = document.createElement("span");
+      stardivs3.setAttribute("class", "fa fa-star checked");
+      var stardivs4 = document.createElement("span");
+      stardivs4.setAttribute("class", "fa fa-star checked");
+      var stardivs5 = document.createElement("span");
+      stardivs5.setAttribute("class", "fa fa-star checked");
+    }
+
+     
+  
+
+  star.append(stardivs1, stardivs2, stardivs3, stardivs3, stardivs4, stardivs5)
+
+    box.append(proImg,name,price_div,strprice,star,shiping);
 
     container.append(box);
 
