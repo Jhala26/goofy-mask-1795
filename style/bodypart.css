@@ -1,0 +1,125 @@
+.para{
+    font-size: 18px;
+}
+.para:hover{
+    text-decoration: underline;
+}
+.more{
+    text-align: center;
+}
+#signbtn{
+    width: 18%;
+    margin-left: 40%;
+    border: 1px solid #066e85;
+    height: 43px;
+    color: #066e85;
+    background-color: white;
+}
+#signbtn:hover{
+    background-color: #066e85;
+    color: white;
+}
+#new_arrivals{
+    border: 15px solid #ccdd2c;
+    margin-top: 50px;
+    margin-bottom: -300px;
+    height: 178px;
+    
+}
+#new_arrivals2{
+    border: 15px solid #066e85;
+    margin-top: 20px;
+    width: 30%;
+    height: 178px;
+    margin-top: 6%;
+    margin-bottom:-263px;
+}
+
+#new_arrival_box{
+    margin-left: 25%;
+    background-color: white;
+width: 13%;
+height: 180px;
+}
+.new{
+    
+    margin-bottom: -197px;
+    margin-left: 10px;
+    font-size: 70px;
+    color: #066e85;
+}
+.arrivals{
+    margin-bottom: 5px;
+    font-size: 130px;
+    color: #066e85;
+}
+.rivals{
+    color: #ccdd2c;
+}
+#adidas{
+    display: flex;
+    gap: 30px;
+    margin-top: -20px;
+    color: blue;
+    text-decoration: underline;
+}
+#joe{
+    margin-top: 30px;
+    margin-left: 60%;
+}
+#joe>p{
+margin-top: -15px;
+
+}
+#slider{
+    margin-top: 90px;
+    width: 95%;
+    margin-left: 30px;
+    /* margin: auto; */
+}
+#slideimg{
+    height: 600px;
+}
+/* #slider>img{
+    width: 100%;
+    height: 200px;
+} */
+.here{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.herebox{
+    margin-top: 60px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    /* gap: 60px; */
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.herebox>div>a>img{
+    height: 500px;
+    width: 450px;
+}
+.dr_martens{
+    margin-top: 60px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    /* gap: 60px; */
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.dr_martens>div>a>img{
+    height: 500px;
+    width: 650px;
+}
+.made{
+    text-align: center;
+    margin-bottom: 60px;
+}
+#slider>img{
+    width: 100%;
+    height: 650px;
+}

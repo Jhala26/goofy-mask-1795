@@ -1,0 +1,179 @@
+#free_shipping{
+    background-color: #066e85;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+a{
+    color: white;
+    font-size: 17px;
+}
+
+/* ************nordstrom logo********** */
+#nordstrom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+input{
+    width: 96%;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-left: 3px;
+}
+#inputbox{
+    border: 1px solid black;
+    width: 51%;
+    margin-right: 7%;
+    height: 42px;
+    
+}
+#sign{
+    display: flex;
+    gap: 20px;
+
+}
+#sign>a{
+    text-decoration: none;
+    color: black;
+}
+.fa-solid{
+    /* margin-left: 20%; */
+}
+/* **************navbarpage*********** */
+#clearance{
+    display: flex;
+    justify-content: space-between;
+
+}
+#clearance>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* *************navbar*********** */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar {
+    overflow: hidden;
+    /* border: 3px solid red ; */
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .navbar a {
+    /* float: left; */
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    /* float: left; */
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #00819d;
+  }
+  
+  .dropdown-content {
+    display: none;
+    
+    position: absolute;
+    background-color: #f9f9f9;
+    /* display: flex; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    /* background-color: #ddd; */
+    text-decoration: underline;
+    color: #00819d;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    display: flex;
+    
+  }
+
+  /* **************nav2*********** */
+
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content2 a:hover {
+    color: #00819d;
+    text-decoration: underline;
+  }
+  
+  .dropdown:hover .dropdown-content2 {
+    display: block;
+    /* border: 10px solid red; */
+    
+    margin-left: -8%;
+  }
+  .dropdown:hover .dropdown-content2>a{
+    margin-top: -10px;
+  }
+  /* ********* */
+  #signbutton{
+    display: flex;
+    gap: -5px;
+    background-color:#065b72;
+    
+  }
+  #signbutton>a{
+    color: white;
+  }
+  #signbutton>hr{
+    color: white;
+    height: 30px;
+  }
