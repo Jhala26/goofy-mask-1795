@@ -8,7 +8,7 @@ let navbar=()=>{
     <img src="https://lh3.googleusercontent.com/pw/AM-JKLVmKj_lz0EMwufI4Ij_AhEC5JLHXwbXssaWRThgPRbgq-5CxaO2OheOmIEpoEdzY3lYAh8B_nmo2sXDmzu1qYRErT9JiQnTMAScXLeTq2WHt-qQ6H-trqQ6Xs7I-V5PYiBPHrHgnjuyoLIRPBrNnKk=w123-h62-no?authuser=0" alt="">
     <div id="inputbox">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text"   placeholder="Search for products or brands">
+        <input type="text" id="input_id"  placeholder="Search for products or brands">
 
     </div>
     <div id="sign">
