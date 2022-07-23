@@ -57,8 +57,8 @@ let navbar=()=>{
               <a href="">New Markdowns</a>
           </div>
         <div>
-          <a href="#"><h4>Women</h4></a>
-          <a href="#">Clothing</a>
+          <a href="products/mens.html"><h4>Women2</h4></a>
+          <a href="products/mens.html">Clothing</a>
           <a href="#">Shoes</a>
           <a href="#">Handbags</a>
           <a href="">Sunglasses</a>
