@@ -160,6 +160,6 @@ let addtocart = (ele) => {
         // console.log(cartproduct);
         localStorage.setItem("cartList", JSON.stringify(cartproduct));
         alert("Product added successfully");
-        window.location.href = "cart.html"
+        window.location.href = "../bag.html";
     }
 }
