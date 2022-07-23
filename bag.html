@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <script
+       src="https://kit.fontawesome.com/24c494a6b6.js"
+       crossorigin="anonymous"
+     ></script>
+    <link rel="stylesheet?" href="style/bodypart.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/navbar.css">
+
+   
+    
+   
+</head>
+
+<style>
+    #bag_main{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    #bag_latest{
+        /* border: 1px solid green; */
+        width: 300px;
+    }
+    #bag_prodect{
+        /* border: 1px solid blue; */
+        width: 75%;
+    }
+    #bag_container{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .bPrice{
+        text-align: right;
+        margin-right: 30px;
+        margin-top: 20px;
+        /* border: 1px solid yellow; */
+    }
+    .bProdect{
+        /* border: 1px solid brown; */
+        display: flex;
+        align-items: center;
+    }
+    .bProdect > img{
+        /* border: 1px solid pink; */
+        height: 150px;
+        width: 150px;
+        padding-top: -50px;
+
+    }
+     #border1{
+        border-top: 1px solid #b4b4b4;
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+    } 
+    .bar{
+        border-top: 1px solid #b4b4b4;
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    #bat2{
+        border-left: 1px solid #b4b4b4;
+        /* width: 100%; */
+        height: 750px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 30px;
+
+    }
+    #bag_total{
+        display: flex;
+        justify-content: space-between;
+        line-height: 20px;
+    }
+    #cards > img{
+        width: 300px;
+    }
+    #cards{
+        margin-left: 30px;
+        color: #676565;
+        line-height: 20px;
+    }
+    #bag_final_pri > div{
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+    }
+    #bag_final_pri{
+        color: #676565;
+        width: 400px;
+        margin-right: 40px;
+    }
+    .div5{
+        margin-top: -20px;
+    } 
+     #bag_final_pri > button{
+        
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        background-color: teal;
+        color: white;
+    } 
+
+    #bag_latest > div > img{
+        width: 120px;
+        height: 130px;
+    }
+    #bag_latest > div{
+        align-items: center;
+        display: flex;
+        /* border: 1px solid red; */
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    #bag_latest > div > div{
+        margin-left: 10px;
+    }
+    #bag_latest > h3{
+        text-align: center;
+    }
+    #bag_latest{
+        margin-top: 80px;
+    }
+    /* #footer{
+        margin-top: 100px;
+    } */
+    
+
+
+</style>
+
+<body>
+    <div id="mainnavbar"></div>
+    <div id="bag_main">
+
+        <div id="bag_prodect">
+
+            <h1 style="color: #4b4b4b; margin-left: 20px;">Shopping Bag</h1>
+            <p style="color: #4b4b4b; margin-left: 20px;">Items in your bag are not on hold.</p>
+            <p style="color: #4b4b4b; margin-left: 20px;">Add a gift message when you check out.</p>
+
+            <div id="bag_container">
+                <div class="bProdect"></div>
+                <div class="bPrice"></div>
+            </div>
+            <div id="border1"></div>
+
+            <div id="bag_total">
+
+                <div id="cards">
+                    <h4>Accepted Payment Methods</h4>
+                    <img src="https://pngimage.net/wp-content/uploads/2018/05/credicard-logo-png-3.png" alt="">
+                    <h4>Need help? Call 1.888.966.6283 or <a href="https://www.nordstromrack.com/faq">chat with us</a></h4>
+                    <p>*Pricing and Promotion details. <a href="https://www.nordstromrack.com/faq#anchor-link-general-info">See more.</a></p>
+                </div>
+                <div id="bag_final_pri">
+                    <!-- <a href="./component/footer.js"></a> -->
+                </div>
+
+            </div>
+        </div>
+
+        <div id="bat2"></div>
+        
+        <div id="bag_latest">
+            <h3>People also viewed</h3>
+        </div>
+    </div>
+
+    <div id="footer_body"></div>
+</body>
+</html>
+<script type="module">
+import navbar from "../component/navbar.js"
+document.getElementById("mainnavbar").innerHTML=navbar()
+
+
+import footer from "./component/footer.js";
+document.getElementById("footer_body").innerHTML=footer();
+    // let obj ={
+    //     img:"https://n.nordstrommedia.com/id/sr3/14325234-fe40-4123-b87b-deee37ac20d4.jpeg?w=156&h=240",
+    //     name:"mens",
+    //     price:100
+    // }
+
+    // var mensLs=JSON.parse(localStorage.getItem("mensDataLs")) ||[] ;
+    // let cartproduct = JSON.parse(localStorage.getItem("cartList")) || [];
+    let lsProData = JSON.parse(localStorage.getItem("proData"));
+
+    
+    
+
+    let display =(data)=>{
+        console.log(data);
+        let prodect = document.querySelector(".bProdect");
+        let pricee = document.querySelector(".bPrice");
+        let final_pri = document.getElementById("bag_final_pri");
+
+        let img = document.createElement("img");
+        img.src = data.image_url;
+
+        let cast = document.createElement("h2");
+        cast.innerText = data.cat;
+
+        let per = document.createElement("h2");
+        per.innerText = data.per;
+
+        let name = document.createElement("h2");
+        name.innerText = data.name;
+
+        let price = document.createElement("h3");
+        price.innerText = `${data.cost}`;
+        price.style.textDecoration = "line-through";
+        let price2 = document.createElement("h3");
+        let dis1 = (data.cost * .9).toFixed(2)
+        price2.innerText = ` 10% off : ${dis1}`;
+        price2.style.textDecoration = "line-through";
+
+        let price3 = document.createElement("h3");
+        let dis2 = (dis1 * .9).toFixed(2);
+        price3.innerText = ` Extra 10% off : ${dis2}`;
+
+        let pri_final = document.createElement("h2");
+        pri_final.innerText = `${dis2}`;
+
+        let sub_price1 = document.createElement("h3");
+        sub_price1.innerText = "Subtotal";
+        let div1 = document.createElement("div");
+        let h = document.createElement("h3");
+        h.innerText = `${dis2}`;
+        div1.append(sub_price1,h);
+
+        let sub_price2 = document.createElement("h3");
+        let Ship = document.createElement("h3");
+        Ship.innerText = "Shipping";
+        let shiping;
+        if(dis2 >= 1000){
+            shiping = 0;
+        }
+        else{
+            shiping = 50;
+        }
+        sub_price2.innerText = `${shiping}`;
+        let div2 = document.createElement("div");
+        div2.append(Ship,sub_price2);
+
+
+        let Estimated_tax = document.createElement("h3");
+        Estimated_tax.innerText = "Estimated tax";
+        let sub_price3 = document.createElement("h3");
+        let tex = dis2 * .18;
+        sub_price3.innerText = `${tex.toFixed(2)}`;
+        let div3 = document.createElement("div");
+        div3.append(Estimated_tax,sub_price3);
+
+        let div4 = document.createElement("div");
+        div4.setAttribute("class","bar");
+
+        let Estimated = document.createElement("h3");
+        Estimated.innerText = "Estimated total";
+        let sub_price4 = document.createElement("h3");
+        let total = dis2 + shiping + tex;
+        sub_price4.innerText = `${total}`;
+        let div5 = document.createElement("div");
+        div5.append(Estimated,sub_price4);
+        div5.setAttribute("class","div5");
+
+
+        let p = document.createElement("p");
+        p.innerText = `or 4 interest-free payments of $21.48 with AfterPay`;
+
+        let btn = document.createElement("button");
+        btn.innerText = "Check Out";
+        btn.addEventListener("click",function(){
+            window.location.href = "checkout.html";
+        })
+
+        let p1 = document.createElement("p");
+        p1.innerText = "Get a $40 Bonus Note when you use a new Nordstrom credit card. Apply now";
+
+
+        bag_final_pri.append(div1,div2,div3,div4, div5,p,btn,p1);
+        
+        let div_det = document.createElement("div");
+        div_det.append(cast,name,per)
+
+        prodect.append(img,div_det);
+        pricee.append(pri_final,price3,price2,price)
+    }
+
+    
+    display(lsProData);
+
+    
+
+    // import footer from "../component/footer.js";
+
+    // let foot = document.getElementById("footer");
+    // foot.innerHTML = footer();
+    
+
+    let trends =(data)=>{
+
+        let cerry = document.getElementById("bag_latest");
+
+        data.forEach((elm)=>{
+            // console.log(elm);
+
+            let div = document.createElement("div");
+            let divA = document.createElement("div");
+
+            let img = document.createElement("img");
+            img.src = elm.images[0];
+
+            let name = document.createElement("p");
+            name.innerText = elm.title;
+
+            let pri = document.createElement("p");
+            pri.innerText = `Price : ${elm.price}`;
+
+            let rat = document.createElement("p");
+            rat.innerText = `Rating : ${elm.rating}`;
+
+            divA.append(name,pri,rat);
+
+            div.append(img,divA);
+
+            cerry.append(div);
+        })
+    }
+
+   
+    
+    let url = "https://dummyjson.com/products/category/womens-dresses";
+    let getData= async()=>{
+        fetch(url).then(function(res){
+            return res.json();
+        }).then(function(res){
+            // console.log(res.products);
+            trends(res.products);
+
+        })
+   }
+
+   getData();
+
+
+
+   
+</script>
+
