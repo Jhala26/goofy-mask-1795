@@ -541,7 +541,14 @@ let displayPage=(mensData)=>{
 displayPage(mensData)
 
 
+import navbar from "../component/navbar.js"
 
+document.getElementById("mainnavbar").innerHTML=navbar();
+
+
+import footer from "../component/footer.js";
+
+document.getElementById("footer_body").innerHTML=footer();
 
 
 
