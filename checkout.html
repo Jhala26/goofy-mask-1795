@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <style>
+      .img1 {
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+      }
+      .img2 {
+        margin-right: 40px;
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+      }
+      #nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      #main{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        margin-top: 5px;
+        padding-top: 30px ;
+        background-color: #f4f4f4;
+      }
+      #pro_final{
+        /* border: 1px solid red; */
+        width: 600px;
+        margin-right: -150px;
+        
+      }
+      #main_sub{
+        width: 420px;
+        /* border: 1px solid red; */
+        margin-left: -250px;
+        height: 700px;
+        
+      }
+      #pro_detail{
+        /* border: 1px solid green; */
+        display: flex;
+        background-color: white;
+        align-items: center;
+      }
+      #pro_add{
+        /* border: 1px solid blue; */
+        background-color: white;
+        padding-left: 20px;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      #pro_add > form{
+        display: grid;
+        width: 350px;
+        font-size: 20px;
+      }
+      #pro_add > form > label{
+        margin-bottom: 5px;
+      }
+      #pro_add > form > input{
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding: 5px 10px;
+      }
+      #pro_cont{
+        /* border: 1px solid blue; */
+        background-color: white;
+        padding-left: 20px;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      #pro_cont > form{
+        display: grid;
+        width: 350px;
+        font-size: 20px;
+      }
+      #pro_cont > form > label{
+        margin-bottom: 5px;
+      }
+      #pro_cont > form > input{
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding: 5px 10px;
+      }
+      #off_card{
+        display: flex;
+        /* border: 1px solid green; */
+        background-color: white;
+        margin-top: 20px;
+        width: 500px;
+
+        padding-left: 20px;
+        padding: 10px;
+      }
+      #off_card > img{
+        width: 100px;
+      }
+      #card_details{
+        /* border: 1px solid blue; */
+        background-color: white;
+        padding-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        padding-bottom: 20px;
+      }
+      #card_details > form{
+        display: grid;
+        width: 350px;
+        font-size: 20px;
+      }
+      #card_details > form > label{
+        margin-bottom: 5px;
+      }
+      #card_details > form > input{
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding: 5px 10px;
+      }
+      #promo{
+        /* border: 1px solid blue; */
+        padding-left: 20px;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        padding: 10px;
+      }
+      #promo > input{
+        margin-bottom: 15px;
+        font-size: 20px;
+        padding: 5px 10px;
+      }
+      #pro_check_pri > div{
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+        }
+        #pro_check_pri{
+            color: #1c1b1b;
+            width: 400px;
+            background-color: white;
+            margin-right: 40px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+        .div5{
+            margin-top: -30px;
+        }
+        #pro_check_pri > button{
+            /* margin: auto; */
+            font-size: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: teal;
+            
+            color: white;
+            margin-top: 20px;
+            /* margin: auto; */
+        }
+        .bar{
+            border-top: 1px solid #626060;
+            width: 100%;
+            margin: auto;
+            margin-top: 30px;
+
+        }
+
+
+        #review1 > div{
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            padding-right: 20px;
+        }
+        #review1{
+            color: #1c1b1b;
+            width: 380px;
+            margin-right: 40px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            
+            /* border: 1px solid orange; */
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+        }
+        .div5{
+            margin-top: -30px;
+
+        }
+        #review1 > button{
+            /* margin: auto; */
+            font-size: 20px;  
+            width: 100%;
+            padding: 10px;
+            
+            background-color: teal;
+            color: white;
+            margin-top: 20px;
+        }
+        .bar{
+            border-top: 1px solid #626060;
+            width: 95%;
+            margin: auto;
+            margin-top: 30px;
+
+        }
+        #sumup{
+          /* border: 1px solid red; */
+          width: 400px;
+          margin: auto;
+          background-color: white;
+          margin-top: 20px;
+          padding: 10px;
+        }
+        #sumup>p{
+          color: #4b4b4b;
+        }
+        #need{
+          background-color: white;
+        }
+        #need2{
+          background-color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <img class="img1" src="./logo.jpg" alt="Loading" />
+      <a href="./bag.html">
+        <img
+        class="img2"
+        src="https://mpng.subpng.com/20190128/wwk/kisspng-paper-shopping-bag-vector-graphics-my-v-store-line-svg-png-icon-free-download-1617-5c4f9fe1269938.4962414215487221451581.jpg"
+        alt=""
+      />
+      </a>
+    </div>
+
+    <div id="main">
+      <div id="pro_final">
+        <div id="pro_detail"></div>
+
+        <div id="pro_add">
+            <h1>Shipping address</h1>
+            <h5>*Required</h5>
+            <form class="pro_add">
+                <label for="name">First Name</label>
+                <input type="text" id="first_name">
+                <label for="name">Last Name</label>
+                <input type="text" id="last_name">
+                <label for="address">Address</label>
+                <input type="text" id="address">
+            </form>
+        </div>
+
+        <div id="pro_cont">
+            <h1>Contact info</h1>
+            <h5>*Required</h5>
+            <form class="pro_cont">
+                <label for="email"> <b>Email</b> (for order updates)*</label>
+                <input type="email" id="email">
+                <label for="phone"> <b>Phone number</b> (for order updates)*</label>
+                <input type="number" id="phone">
+            </form>
+        </div>
+
+        <div id="need2">
+        <div id="off_card">
+          <img src="https://n.nordstrommedia.com/id/9d83332c-1bcd-43e8-8e16-b0cde08d7128.jpeg?crop=pad&width=166&height=126" alt="Loading">
+          <div>
+          <h2>Nordstrom Card</h2>
+          <p>Get a $40 Bonus Note when you use a new Nordstrom credit card.<a href="https://www.nordstromrack.com/becomecardmember">Apply now</a></p>
+          </div>
+        </div>
+      </div>
+
+
+        <div id="card_details">
+          <h2>credit Card / Debit card</h2>
+          <form class="card_details">
+            <label for="Card number">Card number*</label>
+            <input type="number" id="Card_number">
+            <label for="Expiration date">Expiration date*</label>
+            <input type="month" id="Expiration_date">
+            <label for="Security code">Security code*</label>
+            <input type="number" id="Security_code">
+            
+          </form>
+          <input type="checkbox" name="Address" id="addres">
+          <label for="Address" style="font-size: 20px;">Address</label>
+        </div>
+
+        <div id="promo">
+          <h2>Add promo code</h2>
+          <input type="text" id="promos">
+        </div>
+
+        <div id="need">
+        <div id="pro_check_pri"></div>
+      </div>  
+      </div>
+
+
+    <div id="main_sub"> 
+        <div id="review1"></div> 
+      <div id="sumup">
+        <h1>Nordstrom Cares</h1>
+        <p>
+          Big Brothers Big Sisters served 109,254 children in 2020, inspiring
+          mentoring relationships, and providing youth and families safe,
+          proven, accessible, and free programs in all 50 states.
+        </p>
+        <div class="check">
+          <input type="checkbox" name="Donate" id="donate" value="Donate" />
+          <label for="Donate">Donate $5</label>
+          <input type="checkbox" name="Donat" id="donat" value="Donat" />
+          <label for="Donat">Donate $1</label>
+        </div>
+        <p>
+          All donations are non-refundable and not eligible for tax deductions.
+          100% of your donation goes to BBBS. Visit our Terms & Conditions for
+          more information.
+        </p>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
+<script>
+    // let obj ={
+    //     img:"https://n.nordstrommedia.com/id/sr3/14325234-fe40-4123-b87b-deee37ac20d4.jpeg?w=156&h=240",
+    //     name:"mens",
+    //     price:100
+    // }
+
+    let lsProData = JSON.parse(localStorage.getItem("proData"));
+
+    let display=(data)=>{
+        let container = document.getElementById("pro_detail");
+        let img = document.createElement("img");
+        img.src = data.image_url;
+
+        let name = document.createElement("h2");
+        name.innerText = data.name;
+
+        let div_dev =  document.createElement("div");
+        let Deli = document.createElement("h2");
+        Deli.innerText = "Delivery";
+        let de_date = document.createElement("h4");
+        de_date.innerText = "Sat, 7/30 - Wed,8/10";
+
+        div_dev.append(name,Deli,de_date);
+
+        container.append(img,div_dev);
+    }
+
+    display(lsProData);
+
+
+    let append=(data)=>{
+      let contain = document.getElementById("pro_check_pri");
+      let contain2 = document.getElementById("review1");
+
+      let dis1 = data.cost * .9;
+      let dis2 = dis1 * .9;
+
+
+      let sub_price1 = document.createElement("h3");
+        sub_price1.innerText = "Subtotal";
+        let div1 = document.createElement("div");
+        let h = document.createElement("h3");
+        h.innerText = `${dis2}`;
+        div1.append(sub_price1,h);
+
+        let sub_price2 = document.createElement("h3");
+        let Ship = document.createElement("h3");
+        Ship.innerText = "Shipping";
+        let shiping;
+        if(dis2 >= 1000){
+            shiping = 0;
+        }
+        else{
+            shiping = 50;
+        }
+        sub_price2.innerText = `${shiping}`;
+        let div2 = document.createElement("div");
+        div2.append(Ship,sub_price2);
+
+
+        let Estimated_tax = document.createElement("h3");
+        Estimated_tax.innerText = "Estimated tax";
+        let sub_price3 = document.createElement("h3");
+        let tex = dis2 * .18;
+        sub_price3.innerText = `${tex.toFixed(2)}`;
+        let div3 = document.createElement("div");
+        div3.append(Estimated_tax,sub_price3);
+
+        let div4 = document.createElement("div");
+        div4.setAttribute("class","bar");
+
+        let Estimated = document.createElement("h3");
+        Estimated.innerText = "Estimated total";
+        let sub_price4 = document.createElement("h3");
+        let total = dis2 + shiping + tex;
+        sub_price4.innerText = `${total.toFixed(2)}`;
+        let div5 = document.createElement("div");
+        div5.append(Estimated,sub_price4);
+        div5.setAttribute("class","div5");
+
+        let btn = document.createElement("button");
+        btn.innerText = "Review Order";
+        btn.addEventListener("click",function(){
+          orderPlace(total);
+          // console.log("i am working");
+        })
+
+        let hed = document.createElement("h2");
+        hed.innerText = "Review order";
+
+       
+
+        
+        contain.append(hed,div1,div2,div3,div4,div5,btn);
+        // contain2.append(hed,div1,div2,div3,div4,div5,btn);
+    }
+
+    append(lsProData);
+
+
+
+    let append1=(data)=>{
+      let contain = document.getElementById("pro_check_pri");
+      let contain2 = document.getElementById("review1");
+
+      let dis1 = data.cost * .9;
+      let dis2 = dis1 * .9;
+
+
+      let sub_price1 = document.createElement("h3");
+        sub_price1.innerText = "Subtotal";
+        let div1 = document.createElement("div");
+        let h = document.createElement("h3");
+        h.innerText = `${dis2}`;
+        div1.append(sub_price1,h);
+
+        let sub_price2 = document.createElement("h3");
+        let Ship = document.createElement("h3");
+        Ship.innerText = "Shipping";
+        let shiping;
+        if(dis2 >= 1000){
+            shiping = 0;
+        }
+        else{
+            shiping = 50;
+        }
+        sub_price2.innerText = `${shiping}`;
+        let div2 = document.createElement("div");
+        div2.append(Ship,sub_price2);
+
+
+        let Estimated_tax = document.createElement("h3");
+        Estimated_tax.innerText = "Estimated tax";
+        let sub_price3 = document.createElement("h3");
+        let tex = dis2 * .18;
+        sub_price3.innerText = `${tex.toFixed(2)}`;
+        let div3 = document.createElement("div");
+        div3.append(Estimated_tax,sub_price3);
+
+        let div4 = document.createElement("div");
+        div4.setAttribute("class","bar");
+
+        let Estimated = document.createElement("h3");
+        Estimated.innerText = "Estimated total";
+        let sub_price4 = document.createElement("h3");
+        let total = dis2 + shiping + tex;
+        sub_price4.innerText = `${total.toFixed(2)}`;
+        let div5 = document.createElement("div");
+        div5.append(Estimated,sub_price4);
+        div5.setAttribute("class","div5");
+
+        let btn = document.createElement("button");
+        btn.innerText = "Review Order";
+        btn.addEventListener("click",function(){
+          orderPlace(total);
+          // console.log("i am working");
+        })
+
+        let hed = document.createElement("h2");
+        hed.innerText = "Review order";
+
+       
+
+        
+        // contain.append(hed,div1,div2,div3,div4,div5,btn);
+        contain2.append(hed,div1,div2,div3,div4,div5,btn);
+    }
+
+
+    append1(lsProData);
+
+
+
+    function orderPlace(x){
+      let check = input(x);
+      
+      if(check == true){
+        alert("Validation Key = 1234");
+        setTimeout(function(){
+          window.location.href = "verify.html";
+        },2000);
+      }
+      else{
+        alert("Please Fill the complete Details...!");
+      }
+    }
+
+
+
+
+
+    function input(pri){
+      let in1 = document.getElementById("first_name").value;
+      let in2 = document.getElementById("last_name").value;
+      let in3 = document.getElementById("address").value;
+      let in4 = document.getElementById("email").value;
+      let in5 = document.getElementById("phone").value;
+      let in6 = document.getElementById("Card_number").value;
+      let in7 = document.getElementById("Expiration_date").value;
+      let in8 = document.getElementById("Security_code").value;
+      let in9 = document.getElementById("addres").value;
+      let in10 = document.getElementById("promos").value
+
+      console.log(pri,in10);
+      console.log(in10);
+      let final;
+      if(in10 === "masai20"){
+        final = (pri * .8).toFixed(2);
+        
+      }
+      else{
+        final = pri;
+      }
+
+      let user_detail ={
+        name : `${in1} ${in2}`,
+        add : in3,
+        email : in4,
+        phon : in5,
+        Cnum : in6,
+        expDate : in7,
+        price : final
+      }
+
+      console.log(final);
+
+      localStorage.setItem("final_Price", JSON.stringify(user_detail));
+      
+
+
+      console.log(in1,in2,in3,in4,in5,in6,in7,in8,in9)
+      if(in1 !== "" && in2 !== "" && in3 !== ""  && in4 !== ""  && in5 !== ""  && in6 !== ""  && in7 !== ""  && in8 !== ""  && in9 !== ""){
+        return true;
+      }
+      else{
+        return false;
+      }
+
+      
+    }
+
+    
+</script>
