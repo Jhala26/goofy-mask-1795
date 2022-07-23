@@ -16,7 +16,7 @@ a{
     justify-content: space-between;
     margin-top: 30px;
 }
-input{
+#input_id{
     width: 96%;
     height: 40px;
     border: none;
