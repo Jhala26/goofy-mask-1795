@@ -53,33 +53,33 @@ let navbar=()=>{
       <div class="dropdown-content">
           <div>
               <a href="">Clearance:Get Inspired</a>
-              <a href="">Best Sellers</a>
-              <a href="">New Markdowns</a>
+              <a href="products/mens.html">Best Sellers</a>
+              <a href="products/mens.html">New Markdowns</a>
           </div>
         <div>
-          <a href="#"><h4>Women</h4></a>
-          <a href="#">Clothing</a>
-          <a href="#">Shoes</a>
-          <a href="#">Handbags</a>
-          <a href="">Sunglasses</a>
-          <a href="">Jewelry</a>
-          <a href="">Watches</a>
-          <a href="">Accessories</a>
-          <a href=""></a>
+          <a href="products/mens.html"><h4>Women2</h4></a>
+          <a href="products/mens.html">Clothing</a>
+          <a href="products/mens.html">Shoes</a>
+          <a href="products/mens.html">Handbags</a>
+          <a href="products/mens.html">Sunglasses</a>
+          <a href="products/mens.html">Jewelry</a>
+          <a href="products/mens.html">Watches</a>
+          <a href="products/mens.html">Accessories</a>
+          <a href="products/mens.html"></a>
         </div>
         <div>
-          <a href="#"><h4>Men</h4></a>
-          <a href="#">Clothing</a>
-          <a href="#">Shoes</a>
-          <a href="#">Watches</a>
-          <a href="">Accessories</a>
-          <a href=""><h4>Designer</h4></a>
+          <a href="products/mens.html"><h4>Men</h4></a>
+          <a href="products/mens.html">Clothing</a>
+          <a href="products/mens.html">Shoes</a>
+          <a href="products/mens.html">Watches</a>
+          <a href="products/mens.html">Accessories</a>
+          <a href="products/mens.html"><h4>Designer</h4></a>
         </div>
         <div>
-          <a href=""><h4>Kids</h4></a>
-          <a href="">Girls'Clothing</a>
-          <a href="">Girls'Shoes</a>
-          <a href="">Boys'Clothing</a>
+          <a href="products/mens.html"><h4>Kids</h4></a>
+          <a href="products/mens.html">Girls'Clothing</a>
+          <a href="products/mens.html">Girls'Shoes</a>
+          <a href="products/mens.html">Boys'Clothing</a>
           <a href="">Boys'Shoes</a>
           <a href="">Kids'shoes</a>
           <a href="">Baby Clothing & Shoes</a>
@@ -107,23 +107,23 @@ let navbar=()=>{
           <button class="dropbtn">Women</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Women:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
-                  <h4><a href="">Flash Events</a></h4>
-                  <h4><a href="">New Arrivals</a></h4>
-                  <h4><a href="">Best Sellers</a></h4>
-                  <h4><a href="">Contemporary brands</a></h4>
-                  <h4><a href="">Trend Brands</a></h4>
-                  <h4><a href="">Dresses under $50</a></h4>
-                  <h4><a href="">Denim Under $50</a></h4>
-                  <h4><a href="">Wedding Shop</a></h4>
-                  <h4><a href="">Nike for the Family</a></h4>
+                  <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Flash Events</a></h4>
+                  <h4><a href="products/mens.html">New Arrivals</a></h4>
+                  <h4><a href="products/mens.html">Best Sellers</a></h4>
+                  <h4><a href="products/mens.html">Contemporary brands</a></h4>
+                  <h4><a href="products/mens.html">Trend Brands</a></h4>
+                  <h4><a href="products/mens.html">Dresses under $50</a></h4>
+                  <h4><a href="products/mens.html">Denim Under $50</a></h4>
+                  <h4><a href="products/mens.html">Wedding Shop</a></h4>
+                  <h4><a href="products/mens.html">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
-              <a href="#">Clothing</a>
-              <a href="#">Shoes</a>
-              <a href="#">Handbags</a>
+              <a href="products/mens.html"><h4>Women</h4></a>
+              <a href="products/mens.html">Clothing</a>
+              <a href="products/mens.html">Shoes</a>
+              <a href="products/mens.html">Handbags</a>
               <a href="">Sunglasses</a>
               <a href="">Jewelry</a>
               <a href="">Watches</a>
@@ -131,7 +131,7 @@ let navbar=()=>{
               <a href=""></a>
             </div>
             <div>
-              <a href="#"><h4>Men</h4></a>
+              <a href="products/mens.html"><h4>Men</h4></a>
               <a href="#">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Watches</a>
@@ -171,23 +171,23 @@ let navbar=()=>{
           <button class="dropbtn">Men</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Men:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
-                  <h4><a href="">Flash Events</a></h4>
-                  <h4><a href="">New Arrivals</a></h4>
-                  <h4><a href="">Best Sellers</a></h4>
-                  <h4><a href="">Contemporary brands</a></h4>
-                  <h4><a href="">Graphic Tees Under $25</a></h4>
-                  <h4><a href="">Dresses under $50</a></h4>
-                  <h4><a href="">Denim Under $50</a></h4>
-                  <h4><a href="">Swim & Sun under $50</a></h4>
-                  <h4><a href="">Sneakers Under $50</a></h4>
-                  <h4><a href="">Wedding Shop</a></h4>
-                  <h4><a href="">Nike for the Family</a></h4>
+                  <h4><a href="products/mens.html">Men:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Flash Events</a></h4>
+                  <h4><a href="products/mens.html">New Arrivals</a></h4>
+                  <h4><a href="products/mens.html">Best Sellers</a></h4>
+                  <h4><a href="products/mens.html">Contemporary brands</a></h4>
+                  <h4><a href="products/mens.html">Graphic Tees Under $25</a></h4>
+                  <h4><a href="products/mens.html">Dresses under $50</a></h4>
+                  <h4><a href="products/mens.html">Denim Under $50</a></h4>
+                  <h4><a href="products/mens.html">Swim & Sun under $50</a></h4>
+                  <h4><a href="products/mens.html">Sneakers Under $50</a></h4>
+                  <h4><a href="products/mens.html">Wedding Shop</a></h4>
+                  <h4><a href="products/mens.html">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
-              <a href="#">Clothing</a>
+              <a href="products/mens.html"><h4>Women</h4></a>
+              <a href="products/mens.html">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Handbags</a>
               <a href="">Sunglasses</a>
@@ -197,16 +197,16 @@ let navbar=()=>{
               <a href=""></a>
             </div>
             <div>
-              <a href="#"><h4>Men</h4></a>
-              <a href="#">Clothing</a>
+              <a href="products/mens.html"><h4>Men</h4></a>
+              <a href="products/mens.html">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Watches</a>
               <a href="">Accessories</a>
               <a href=""><h4>Designer</h4></a>
             </div>
             <div>
-              <a href=""><h4>Kids</h4></a>
-              <a href="">Girls'Clothing</a>
+              <a href="products/mens.html"><h4>Kids</h4></a>
+              <a href="products/mens.html">Girls'Clothing</a>
               <a href="">Girls'Shoes</a>
               <a href="">Boys'Clothing</a>
               <a href="">Boys'Shoes</a>
@@ -215,8 +215,8 @@ let navbar=()=>{
               <a href=""><h4>Activewea</h4></a>
             </div>
             <div>
-              <a href=""><h4>Home</h4></a>
-              <a href="">Art & Wall Decor</a>
+              <a href="products/mens.html"><h4>Home</h4></a>
+              <a href="products/mens.html">Art & Wall Decor</a>
               <a href="">Bath</a>
               <a href="">Bedding</a>
               <a href="">Decor</a>
@@ -225,9 +225,9 @@ let navbar=()=>{
               <a href="">Storage & Cleaning</a>
             </div>
             <div>
-              <a href=""><h4>Beauty</h4></a>
-              <a href="">Makeup</a>
-              <a href="">Skin Care</a>
+              <a href="products/mens.html"><h4>Beauty</h4></a>
+              <a href="products/mens.html">Makeup</a>
+              <a href="products/mens.html">Skin Care</a>
               </div>
           </div>
       </div>
@@ -238,9 +238,9 @@ let navbar=()=>{
           <button class="dropbtn">Kids</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Women:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
-                  <h4><a href="">Flash Events</a></h4>
+                  <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Flash Events</a></h4>
                   <h4><a href="">New Arrivals</a></h4>
                   <h4><a href="">Best Sellers</a></h4>
                   <h4><a href="">Contemporary brands</a></h4>
@@ -251,9 +251,9 @@ let navbar=()=>{
                   <h4><a href="">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
-              <a href="#">Clothing</a>
-              <a href="#">Shoes</a>
+              <a href="products/mens.html"><h4>Women</h4></a>
+              <a href="products/mens.html">Clothing</a>
+              <a href="products/mens.html">Shoes</a>
               <a href="#">Handbags</a>
               <a href="">Sunglasses</a>
               <a href="">Jewelry</a>
@@ -262,16 +262,16 @@ let navbar=()=>{
               <a href=""></a>
             </div>
             <div>
-              <a href="#"><h4>Men</h4></a>
-              <a href="#">Clothing</a>
+              <a href="products/mens.html"><h4>Men</h4></a>
+              <a href="products/mens.html">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Watches</a>
               <a href="">Accessories</a>
               <a href=""><h4>Designer</h4></a>
             </div>
             <div>
-              <a href=""><h4>Kids</h4></a>
-              <a href="">Girls'Clothing</a>
+              <a href="products/mens.html"><h4>Kids</h4></a>
+              <a href="products/mens.html">Girls'Clothing</a>
               <a href="">Girls'Shoes</a>
               <a href="">Boys'Clothing</a>
               <a href="">Boys'Shoes</a>
@@ -280,8 +280,8 @@ let navbar=()=>{
               <a href=""><h4>Activewea</h4></a>
             </div>
             <div>
-              <a href=""><h4>Home</h4></a>
-              <a href="">Art & Wall Decor</a>
+              <a href="products/mens.html"><h4>Home</h4></a>
+              <a href="products/mens.html">Art & Wall Decor</a>
               <a href="">Bath</a>
               <a href="">Bedding</a>
               <a href="">Decor</a>
@@ -290,8 +290,8 @@ let navbar=()=>{
               <a href="">Storage & Cleaning</a>
             </div>
             <div>
-              <a href=""><h4>Beauty</h4></a>
-              <a href="">Makeup</a>
+              <a href="products/mens.html"><h4>Beauty</h4></a>
+              <a href="products/mens.html">Makeup</a>
               <a href="">Skin Care</a>
               </div>
           </div>
@@ -304,9 +304,9 @@ let navbar=()=>{
           <button class="dropbtn">Shoes</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Women:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
-                  <h4><a href="">Flash Events</a></h4>
+                  <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Flash Events</a></h4>
                   <h4><a href="">New Arrivals</a></h4>
                   <h4><a href="">Best Sellers</a></h4>
                   <h4><a href="">Contemporary brands</a></h4>
@@ -317,9 +317,9 @@ let navbar=()=>{
                   <h4><a href="">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
-              <a href="#">Clothing</a>
-              <a href="#">Shoes</a>
+              <a href="products/mens.html"><h4>Women</h4></a>
+              <a href="products/mens.html">Clothing</a>
+              <a href="products/mens.html">Shoes</a>
               <a href="#">Handbags</a>
               <a href="">Sunglasses</a>
               <a href="">Jewelry</a>
@@ -336,8 +336,8 @@ let navbar=()=>{
               <a href=""><h4>Designer</h4></a>
             </div>
             <div>
-              <a href=""><h4>Kids</h4></a>
-              <a href="">Girls'Clothing</a>
+              <a href="products/mens.html"><h4>Kids</h4></a>
+              <a href="products/mens.html">Girls'Clothing</a>
               <a href="">Girls'Shoes</a>
               <a href="">Boys'Clothing</a>
               <a href="">Boys'Shoes</a>
@@ -346,8 +346,8 @@ let navbar=()=>{
               <a href=""><h4>Activewea</h4></a>
             </div>
             <div>
-              <a href=""><h4>Home</h4></a>
-              <a href="">Art & Wall Decor</a>
+              <a href="products/mens.html"><h4>Home</h4></a>
+              <a href="products/mens.html">Art & Wall Decor</a>
               <a href="">Bath</a>
               <a href="">Bedding</a>
               <a href="">Decor</a>
@@ -356,8 +356,8 @@ let navbar=()=>{
               <a href="">Storage & Cleaning</a>
             </div>
             <div>
-              <a href=""><h4>Beauty</h4></a>
-              <a href="">Makeup</a>
+              <a href="products/mens.html"><h4>Beauty</h4></a>
+              <a href="products/mens.html">Makeup</a>
               <a href="">Skin Care</a>
               </div>
           </div>
@@ -371,8 +371,8 @@ let navbar=()=>{
           <button class="dropbtn">Activewear</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Women:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
                   <h4><a href="">Flash Events</a></h4>
                   <h4><a href="">New Arrivals</a></h4>
                   <h4><a href="">Best Sellers</a></h4>
@@ -384,8 +384,8 @@ let navbar=()=>{
                   <h4><a href="">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
-              <a href="#">Clothing</a>
+              <a href="products/mens.html"><h4>Women</h4></a>
+              <a href="products/mens.html">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Handbags</a>
               <a href="">Sunglasses</a>
@@ -395,7 +395,7 @@ let navbar=()=>{
               <a href=""></a>
             </div>
             <div>
-              <a href="#"><h4>Men</h4></a>
+              <a href="products/mens.html"><h4>Men</h4></a>
               <a href="#">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Watches</a>
@@ -403,8 +403,8 @@ let navbar=()=>{
               <a href=""><h4>Designer</h4></a>
             </div>
             <div>
-              <a href=""><h4>Kids</h4></a>
-              <a href="">Girls'Clothing</a>
+              <a href="products/mens.html"><h4>Kids</h4></a>
+              <a href="products/mens.html">Girls'Clothing</a>
               <a href="">Girls'Shoes</a>
               <a href="">Boys'Clothing</a>
               <a href="">Boys'Shoes</a>
@@ -413,7 +413,7 @@ let navbar=()=>{
               <a href=""><h4>Activewea</h4></a>
             </div>
             <div>
-              <a href=""><h4>Home</h4></a>
+              <a href="products/mens.html"><h4>Home</h4></a>
               <a href="">Art & Wall Decor</a>
               <a href="">Bath</a>
               <a href="">Bedding</a>
@@ -439,8 +439,8 @@ let navbar=()=>{
           <button class="dropbtn">Bags & Accessories</button>
           <div class="dropdown-content">
               <div>
-                  <h4><a href="">Women:Get Inspired</a></h4>
-                  <h4><a href="">Back to School</a></h4>
+                  <h4><a href="products/mens.html">Women:Get Inspired</a></h4>
+                  <h4><a href="products/mens.html">Back to School</a></h4>
                   <h4><a href="">Flash Events</a></h4>
                   <h4><a href="">New Arrivals</a></h4>
                   <h4><a href="">Best Sellers</a></h4>
@@ -452,7 +452,7 @@ let navbar=()=>{
                   <h4><a href="">Nike for the Family</a></h4>
               </div>
             <div>
-              <a href="#"><h4>Women</h4></a>
+              <a href="products/mens.html"><h4>Women</h4></a>
               <a href="#">Clothing</a>
               <a href="#">Shoes</a>
               <a href="#">Handbags</a>
