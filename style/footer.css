@@ -61,7 +61,8 @@
 }
 #exclusive>a>img{
     width: 100%;
-    border: 2px solid green;
+    height: 200px;
+   
 }
 #footer_body{
     width: 98%;
