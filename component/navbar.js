@@ -20,9 +20,9 @@ let navbar=()=>{
     </button>
     <div class="dropdown-content2">
         <button id="signbutton">
-          <a href="">Sign In</a>
+          <a href="signUpLogIn.html">Sign In</a>
           <hr>
-          <a href="">Create Account</a>
+          <a href="signUpLogIn.html">Create Account</a>
         </button>
         <h4><a href="">Your Account</a></h4>
       <a href="">Purchases</a>
