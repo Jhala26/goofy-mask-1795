@@ -40,7 +40,7 @@ let navbar=()=>{
     </div>
   </div> 
 </div>
-        <a href=""><p>Cart</p></a>
+        <a href="bag.html"><p>Cart</p></a>
     </div>
 </div>
 
