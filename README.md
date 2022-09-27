@@ -15,3 +15,10 @@
 
 <h1>About Project</h1>
 <p>We have created a clone of Nordstrom Rack, which is an online E-Commerce Company, Through this website, you can purchase fashion products. On this website, we created a home page, Product page, Cart page, and Payment Getaway page and you can use these pages after you Login into this website. You can easily buy product from this website </p>
+
+
+<h1  align="center">We got some experience during this project</h1>
+<h3>During this project we got to learn how to work in groups.</h3>
+<h3>During this project we increased our communication skills.</h3>
+<h3>We Learned how to communicate with team members?</h3>
+<h3>Overall we learn lots of things during this project.</h3>
