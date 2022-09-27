@@ -3,7 +3,7 @@
 <br>
 <h3 align="center">CoSchedule is a Service Provider Company and we made a clone of its online Service Platform</h3>
 <br>
-<h2 align="center">CoSchedule_Clone</h2>
+<h2 align="center">Tech-Stack</h2>
 <h3 align="center">CSS | HTML | JAVASCRIPT</h3>
 
 <br>
