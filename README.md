@@ -11,3 +11,7 @@
 <h4 align="center">Complete commerce store.</h4>
 <h4 align="center">Responsible for navbar and Product pages.</h4>
 <h4 align="center">Product shorting and filtering</h4>
+<br>
+
+<h1>About Project</h1>
+<p>We have created a clone of Nordstrom Rack, which is an online E-Commerce Company, Through this website, you can purchase fashion products. On this website, we created a home page, Product page, Cart page, and Payment Getaway page and you can use these pages after you Login into this website. You can easily buy product from this website </p>
