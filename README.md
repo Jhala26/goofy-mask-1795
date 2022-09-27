@@ -18,7 +18,7 @@
 
 
 <h1  align="center">We got some experience during this project</h1>
-<h3>During this project we got to learn how to work in groups.</h3>
-<h3>During this project we increased our communication skills.</h3>
-<h3>We Learned how to communicate with team members?</h3>
-<h3>Overall we learn lots of things during this project.</h3>
+<h4>During this project we got to learn how to work in groups.</h4>
+<h4>During this project we increased our communication skills.</h4>
+<h4>We Learned how to communicate with team members?</h4>
+<h4>Overall we learn lots of things during this project.</h4>
