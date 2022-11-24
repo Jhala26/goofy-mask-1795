@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top: 30px;
+        }
+        #verify{
+            display: grid;
+            width: 300px;
+            margin: auto;
+            margin-top: 100px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* height: 150px; */
+            /* width: 400px; */
+        }
+        label{
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            padding-left: 20px;
+        }
+        input{
+            font-size: 20px;
+            padding: 5px 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        button{
+            font-size: 20px;
+            width: 100px;
+            margin: auto;
+            background-color: teal;
+            color: white;
+            margin-bottom: 30px;
+        }
+        #main{
+            display: flex;
+            justify-content: space-around;
+        }
+        #userDetail{
+            /* border: 1px solid red; */
+            margin-left: 30px;
+            padding: 20px;
+        }
+        #personal{
+            display: grid;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+        }
+        #card{
+            display: grid;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        #price{
+            display: grid;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Verification Process</h1>
+
+    <div id="main">
+
+        <div id="userDetail">
+            <div id="personal"></div>
+            <div id="card"></div>
+            <div id="price"></div>
+        </div>
+
+        <div id="verify">
+            <label for="Enter">Enter Key</label>
+            <input type="number" id="very">
+            <button onclick="checking()">Submit</button>
+            <!-- <a href=""></a> -->
+    </div>
+
+       
+    </div>
+</body>
+</html>
+<script>
+
+    let user = JSON.parse(localStorage.getItem("final_Price"));
+    console.log(user);
+
+    function checking(){
+        let check = document.getElementById("very").value;
+        console.log(check);
+
+
+    if(check == 1234){
+        setTimeout(function(){
+            alert("Payment Successfull.....!");
+        },1000);
+        setTimeout(function(){
+            alert("Order in Process.....!");
+        },4000);
+        setTimeout(function(){
+            alert("Order Placed.....!");
+        },7000);
+        setTimeout(function(){
+            window.location.href = "./products/mens.html";
+        },10000);
+
+    }
+    else{
+        alert("Please Enter Valid Key");
+    }
+    }
+
+
+
+    let display=(det)=>{
+        let pers  = document.getElementById("personal");
+        let card  = document.getElementById("card");
+        let pri  = document.getElementById("price");
+
+        let div1 = document.createElement("div");
+        let hed1 = document.createElement("h2");
+        hed1.innerText = "User Details";
+        let name = document.createElement("h4");
+        name.innerText = `Name : ${det.name}`;
+        let add         = document.createElement("h4");
+        add.innerText = `Address : ${det.add}`;
+        let email =document.createElement("h4");
+        email.innerText = `Email : ${det.email}`;
+        let phone = document.createElement("h4");
+        phone.innerText =`Email : ${det.phon}`;
+        div1.append(hed1,name,add,email,phone);
+        pers.append(div1);
+
+        div2 = document.createElement("div");
+        let hed2 = document.createElement("h2");
+        hed2.innerText = "Card Details";
+        let cNumber = document.createElement("h4");
+        cNumber.innerText = `Card-Num : ${det.Cnum}`;
+        let ExDate = document.createElement("h4");
+        ExDate.innerText = `Expiry Date : ${det.expDate}`;
+        div2.append(hed2,cNumber,ExDate);
+        card.append(div2);
+
+        div3 = document.createElement("div");
+        let hed3 = document.createElement("h2");
+        hed3.innerText = "Final Price";
+        let price1 = document.createElement("h4");
+        price1.innerText =  `Bill Amount : ${det.price}`
+        div3.append(hed3,price1);
+        pri.append(hed3,price1); 
+
+
+    }
+
+    display(user)
+
+</script>
