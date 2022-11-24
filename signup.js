@@ -12,6 +12,6 @@ form.addEventListener("submit",function(event){
     //   password:  form.password.value,
     // }
     // localStorage.setItem("userDetails",JSON.stringify(data));
-    window.location.href="productpage.html"
+    window.location.href="index.html"
    
 });

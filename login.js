@@ -5,7 +5,7 @@ var form=document.querySelector("form");
 form.addEventListener("submit",function(event){
     event.preventDefault();
    
-    window.location.href="productpage.html"
+    window.location.href="index.html"
  
    
    

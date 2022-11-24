@@ -1,6 +1,6 @@
 let footer=()=>{
     return `<div id="exclusive">
-    <a href=""><img src="https://lh3.googleusercontent.com/G8v9xJof_zzUKVVhmJmHDG9WjJCBOT0nnZey7MrM8ClVQNczxJqVt-6aaiAVqK7QI8xK9WIOggVRO8aeqCPINIRpjoCkRB9YC6aoLPZz4m62gECNG4XRYZq0CZZ0lg6D6llNQTENIVX7uhBaQyWgLx1UieHIJYTVU_FIVPn9BPxEmJMIuMh2TciJ4oH5rFbKdfIWp5RccULkI8wkzkLnqfKs36nm5hJ7PTQ89w4Xc1r2vscMv4eBhQVRI0wHB8-yoI20hiREpqrOzo7EV39X7r1lyQP9Cb-5qMXFQqFALN798BgpOFxf6aQZbjlkzyxLiYPtkooseTm_pNKSLk2pL21bxWL6aBqGbf15LaAzx3R9cUXseH4hGOiWIMEl7vBLMlEmlmdeImcKgzbFg8JnX-6dT-9ioorK-29HW5pCzLWp0f2txVjEjHfzmKRbsPs4yno0AvM7TuXqlhA2t16iVBaCO-z0EpH8QAARbneH7lQUMGP5sc1An5-FMve3sb8P2bg915fxVbZOEsiSWeMalkDTRiMBmbwRRsmgzcmYT0Z6pr5oFp269j8U7IFx8iHMVBesLNrm8a_TpGGRGuI7UP-VcBU09HGIA4TgBjR98IIbS0Zi7dx_Q0mbsR5U_HvcP6Vvdcqh28oC_flb6AJPzYIS4df3sqa61KndGhlYscyJ8_DQxcrSxMebgdCk6QSBc8cr9NwXY_usckevJTGGoNwkzHK27i5VGJB7taKelEcAH1bYQ3tb3A=w1831-h213-no?authuser=0" alt=""></a>
+    <a href=""><img src="https://t4.ftcdn.net/jpg/04/67/93/01/360_F_467930159_UcfrOkjhFG436zoT9fSetYccBgpNkokp.jpg" alt=""></a>
 
 </div>
 <div id="get_email">

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/navbar.css">
     <style>
       #container{
         /* border: 1px solid red; */
@@ -57,6 +59,7 @@
     </style>
 </head>
 <body>
+    <div  id="navbar"></div>
     <div id="container">
 <p id="p1">Sign In | Create Account</p>
 <p id="p2">Enter your email to get started</p>
@@ -69,6 +72,13 @@
 </form> 
 
 </div>
+    <div id="footer_body"></div>
 </body>
 </html>
 <script src="./signUpLogIn.js"></script>
+<script type="module">
+  import navbar from "./component/navbar.js"
+  import footer from "./component/footer.js"
+  document.getElementById("navbar").innerHTML=navbar();
+  document.getElementById("footer_body").innerHTML=footer();
+</script>
